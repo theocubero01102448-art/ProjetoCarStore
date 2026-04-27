@@ -7,11 +7,11 @@
 </head>
 <body>
     <header>
-        <h3>Cadastre seu veiculo para vende mais rápido</h3>
+        <h3>Cadastre seu veículo para vender mais rápido</h3>
     </header>
     <div>
         <div>
-            <p>Formulario</p>
+            <p>Formulário</p>
         </div>
 
         <div>
@@ -19,38 +19,88 @@
             <p>Descreva as características do seu carro e marque os opcionais que ele possui</p>
             <form>
                 <div>
-                    <label for="title">Título do anuncio <span>*</span></label>
-                    <input type="text" name="title" id="title" placeholder="Um titulo para anunciar seu carro">
+                    <label for="title">Título do Anúncio <span>*</span></label>
+                    <input type="text" name="title" id="title" placeholder="Um título para anunciar seu carro">
                 </div>
 
                 <div>
-                    <label for="title">preço<span>*</span></label>
-                    <input type="text" name="preco" id="preco" placeholder="defina o preço">
+                    <label for="preco">Preço <span>*</span></label>
+                    <input type="number" name="preco" id="preco" placeholder="Defina o preço">
                 </div>
 
                 <div>
-                    <label for="descricao">Descriçao <span>*</span></label>
-                    <textarea name="descricao" id="descricao">Descreva seu veiculo</textarea>
+                    <label for="descricao">Descrição <span>*</span></label>
+                    <textarea name="descricao" id="descricao" placeholder="Faça a descrição do seu veículo"></textarea>
                 </div>
 
                 <div>
-                    <label for="marca">marca<span>*</span></label>
-                    <input type="text" name="marca" id="marca" placeholder="Coloque a marca do seu veiculo">
+                    <label for="marca">Marca <span>*</span></label>
+                    <input type="text" name="marca" id="marca" placeholder="Marca do veículo">
                 </div>
 
                 <div>
-                    <label for="modelo">modelo<span>*</span></label>
-                    <input type="text" name="modelo" id="modelo" placeholder="Coloque o modelo do seu veiculo">
+                    <label for="modelo">Modelo <span>*</span></label>
+                    <input type="text" name="modelo" id="modelo" placeholder="Modelo do veículo">
                 </div>
-
+                
                 <div>
-                    <label for="quilometragem">quilometragem</label>
-                    <input type="number" name="quilometragem" id="quilometragem" placeholder="Quilometragem do veiculo">
+                    <label for="quilometragem">quilometragem <span>*</span></label>
+                    <input type="number" name="kilometragem" id="kilometragem" placeholder="quilometragem">
                 </div>
-
+                
                 <div>
                     <label for="data-de-compra">Data de compra <span>*</span></label>
-                    <input type="data" name="data-de-compra" id="data-de-compra">
+                    <input type="date" name="data-de-compra" id="data-de-compra" placeholder="Data de compra">
+                </div>
+
+                <div>
+                    <p>Tipo de câmbio:</p>
+                    <input type="radio" name="marcha" id="manual">
+                    <label for="manual">Manual</label>
+                    <input type="radio" name="marcha" id="auto">
+                    <label for="auto">Automático</label>
+                </div>
+
+                <div>
+                    <p>Opcionais</p>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="opcional[]" id="airbag" value="airbag">
+                            <label for="airbag">Airbag</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="opcional[]" id="ar-condicionado" value="ar-condicionado">
+                            <label for="ar-condicionado">Ar condicionado</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="opcional[]" id="alarme" value="alarme">
+                            <label for="alarme">Alarme</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="opcional[]" id="camera-de-re" value="camera-de-re">
+                            <label for="camera-de-re">Câmera de ré</label>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>
+                            <input type="checkbox" name="opcional[]" id="assistente-de-pisca" value="assistente-de-pisca">
+                            <label for="assistente-de-pisca">Assistente de pisca</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="opcional[]" id="partida-sem-chave" value="partida-sem-chave">
+                            <label for="partida-sem-chave">Partida sem chave</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="opcional[]" id="integracao-com-celular" value="integracao-com-celular">
+                            <label for="integracao-com-celular">Integração com celular</label>
+                        </li>
+                        <li>
+                            <input type="checkbox" name="opcional[]" id="banco-de-couro" value="banco-de-couro">
+                            <label for="banco-de-couro">Banco de couro</label>
+                        </li>
+                    </ul>
                 </div>
             </form>
         </div>
