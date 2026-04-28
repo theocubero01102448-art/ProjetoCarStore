@@ -13,13 +13,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, label {
-    color:  #444
+    color: #444;
 }
 
 input {
     border: none;
     border-bottom: 1px solid #ccc;
-    padding: 10px, 0;
+    padding: 10px 0;
 }
 
 input[type="text"], input[type="number"], input[type="date"], input[type="file"], textarea {
@@ -27,6 +27,16 @@ input[type="text"], input[type="number"], input[type="date"], input[type="file"]
 }
 
 textarea {
-    padding: 10px, 5px;
+    padding: 10px 5px;
 }
 
+.cabecalho {
+    height: 100px;
+    padding: 20px;
+    background-color: #0a080f;
+}
+
+.cabecalho h3{
+    color: #e00a0a;
+    margin-top: 0;
+}
