@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Store</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -104,10 +105,15 @@
                 </div>
                 <div>
                     <p>Fotos do carro <span>*</span></p>
-                    <input type="file" name="imagem" id="imagem" multiple accept="">
-                </div>
+                    <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg">
+                </div> 
+              <input type="submit" value="enviar">
             </form>
+            <hr>
+            <h2>Carros Cadastrados</h2>
+            <div></div>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
