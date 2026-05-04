@@ -1,24 +1,24 @@
-* {
+*{
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body {
-    background-color: rgb(148, 148, 150);
+body{
+    background-color: fuchsia;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: azure;
+    color: #ccc;
 }
 
 p, label {
-    color: azure;
+    color: #444;
 }
 
 input {
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #ccc;
     padding: 10px 0;
 }
 
@@ -31,38 +31,46 @@ textarea {
 }
 
 .cabecalho {
-    height: 160px;
+    height: 100px;
     padding: 20px;
-    background-color: blue;
+    background-color: #0a080f;
 }
 
-.cabecalho h3 {
-    color: black;
+.cabecalho h3{
+    color: #e00a0a;
     margin-top: 0;
 }
 
-.form-container {
-    background-color: aliceblue;
+.from-conteienr {
+    background-color: #dfdfdf;
     width: 60%;
     margin: 0 auto;
     position: relative;
     top: -46px;
 }
 
-.form-header {
-    border-bottom: 1px solid black;
+.from-header {
+    border-bottom: 1px solid #dfdfdf;
     height: 45px;
 }
 
-.form-header p {
-    color: black;
-    border-bottom: 2px solid bisque;
+.from-header p {
+    color: #673ab7;
+    border-bottom: 2px solid #673ab7;
     width: 100%;
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
     height: 45px;
     list-style: 45px;
+}
+
+.frem-body {
+    padding: 30px;
+}
+
+.titulo-form {
+    margin-bottom: 15px;
 }
 
 .form-body {
@@ -79,4 +87,22 @@ textarea {
 
 .campo-obrigatorio {
     color: red;
+}
+
+.caixaInputs{
+    margin-bottom: 35px;
+}
+
+.blok{
+    display: block;
+}
+
+.caixaOpcinal{
+    display: inline-block;
+    margin: 0 30px 0 30px;
+}
+
+.caixaOpcinal li{
+    list-style: none;
+    margin-bottom: 5px;
 }
